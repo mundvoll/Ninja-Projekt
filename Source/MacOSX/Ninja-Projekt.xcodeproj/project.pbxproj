@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8FBC2C1490FB11003B79DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBC2B1490FB11003B79DB /* Cocoa.framework */; };
+		5E8FBC381490FB11003B79DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBC371490FB11003B79DB /* main.m */; };
+		5E8FBC3C1490FB11003B79DB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBC3A1490FB11003B79DB /* Credits.rtf */; };
+		5E8FBC3F1490FB11003B79DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBC3E1490FB11003B79DB /* AppDelegate.m */; };
+		5E8FBC421490FB11003B79DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBC401490FB11003B79DB /* MainMenu.xib */; };
+		5EBC146A14910381005FE86F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EBC146914910381005FE86F /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E8FBC271490FB11003B79DB /* Ninja-Projekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja-Projekt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8FBC2B1490FB11003B79DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5E8FBC2E1490FB11003B79DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5E8FBC2F1490FB11003B79DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5E8FBC301490FB11003B79DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E8FBC331490FB11003B79DB /* Ninja-Projekt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ninja-Projekt-Info.plist"; sourceTree = "<group>"; };
+		5E8FBC371490FB11003B79DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E8FBC391490FB11003B79DB /* Ninja-Projekt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ninja-Projekt-Prefix.pch"; sourceTree = "<group>"; };
+		5E8FBC3B1490FB11003B79DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5E8FBC3D1490FB11003B79DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E8FBC3E1490FB11003B79DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E8FBC411490FB11003B79DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5EBC146914910381005FE86F /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E8FBC241490FB11003B79DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8FBC2C1490FB11003B79DB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E8FBC1C1490FB11003B79DB = {
+			isa = PBXGroup;
+			children = (
+				5E8FBC311490FB11003B79DB /* Ninja-Projekt */,
+				5E8FBC2A1490FB11003B79DB /* Frameworks */,
+				5E8FBC281490FB11003B79DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E8FBC281490FB11003B79DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBC271490FB11003B79DB /* Ninja-Projekt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E8FBC2A1490FB11003B79DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBC2B1490FB11003B79DB /* Cocoa.framework */,
+				5E8FBC2D1490FB11003B79DB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E8FBC2D1490FB11003B79DB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBC2E1490FB11003B79DB /* AppKit.framework */,
+				5E8FBC2F1490FB11003B79DB /* CoreData.framework */,
+				5E8FBC301490FB11003B79DB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5E8FBC311490FB11003B79DB /* Ninja-Projekt */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBC3D1490FB11003B79DB /* AppDelegate.h */,
+				5E8FBC3E1490FB11003B79DB /* AppDelegate.m */,
+				5E8FBC401490FB11003B79DB /* MainMenu.xib */,
+				5E8FBC321490FB11003B79DB /* Supporting Files */,
+			);
+			path = "Ninja-Projekt";
+			sourceTree = "<group>";
+		};
+		5E8FBC321490FB11003B79DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBC331490FB11003B79DB /* Ninja-Projekt-Info.plist */,
+				5EBC146914910381005FE86F /* InfoPlist.strings */,
+				5E8FBC371490FB11003B79DB /* main.m */,
+				5E8FBC391490FB11003B79DB /* Ninja-Projekt-Prefix.pch */,
+				5E8FBC3A1490FB11003B79DB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E8FBC261490FB11003B79DB /* Ninja-Projekt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8FBC451490FB11003B79DB /* Build configuration list for PBXNativeTarget "Ninja-Projekt" */;
+			buildPhases = (
+				5E8FBC231490FB11003B79DB /* Sources */,
+				5E8FBC241490FB11003B79DB /* Frameworks */,
+				5E8FBC251490FB11003B79DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ninja-Projekt";
+			productName = "Ninja-Projekt";
+			productReference = 5E8FBC271490FB11003B79DB /* Ninja-Projekt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E8FBC1E1490FB11003B79DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5E8FBC211490FB11003B79DB /* Build configuration list for PBXProject "Ninja-Projekt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E8FBC1C1490FB11003B79DB;
+			productRefGroup = 5E8FBC281490FB11003B79DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E8FBC261490FB11003B79DB /* Ninja-Projekt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E8FBC251490FB11003B79DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8FBC3C1490FB11003B79DB /* Credits.rtf in Resources */,
+				5E8FBC421490FB11003B79DB /* MainMenu.xib in Resources */,
+				5EBC146A14910381005FE86F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E8FBC231490FB11003B79DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8FBC381490FB11003B79DB /* main.m in Sources */,
+				5E8FBC3F1490FB11003B79DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E8FBC3A1490FB11003B79DB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8FBC3B1490FB11003B79DB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5E8FBC401490FB11003B79DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8FBC411490FB11003B79DB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E8FBC431490FB11003B79DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E8FBC441490FB11003B79DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E8FBC461490FB11003B79DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ninja-Projekt/Ninja-Projekt-Prefix.pch";
+				INFOPLIST_FILE = "Ninja-Projekt/Ninja-Projekt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E8FBC471490FB11003B79DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ninja-Projekt/Ninja-Projekt-Prefix.pch";
+				INFOPLIST_FILE = "Ninja-Projekt/Ninja-Projekt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E8FBC211490FB11003B79DB /* Build configuration list for PBXProject "Ninja-Projekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8FBC431490FB11003B79DB /* Debug */,
+				5E8FBC441490FB11003B79DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8FBC451490FB11003B79DB /* Build configuration list for PBXNativeTarget "Ninja-Projekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8FBC461490FB11003B79DB /* Debug */,
+				5E8FBC471490FB11003B79DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E8FBC1E1490FB11003B79DB /* Project object */;
+}
