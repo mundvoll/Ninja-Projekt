@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E57BFBC149A5C3F004B9815 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E57BFBB149A5C3F004B9815 /* main.cpp */; };
+		5E57BFBE149A5DC1004B9815 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5E57BFBD149A5DC1004B9815 /* MainMenu.nib */; };
 		5E8FBC2C1490FB11003B79DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBC2B1490FB11003B79DB /* Cocoa.framework */; };
-		5E8FBC381490FB11003B79DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBC371490FB11003B79DB /* main.m */; };
-		5E8FBC3C1490FB11003B79DB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBC3A1490FB11003B79DB /* Credits.rtf */; };
-		5E8FBC3F1490FB11003B79DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBC3E1490FB11003B79DB /* AppDelegate.m */; };
-		5E8FBC421490FB11003B79DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBC401490FB11003B79DB /* MainMenu.xib */; };
 		5EBC146A14910381005FE86F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EBC146914910381005FE86F /* InfoPlist.strings */; };
+		5EC785FA149A567900311C40 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC785F7149A567900311C40 /* Carbon.framework */; };
+		5EC785FB149A567900311C40 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC785F8149A567900311C40 /* IOKit.framework */; };
+		5EC785FC149A567900311C40 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC785F9149A567900311C40 /* OpenGL.framework */; };
+		5EC785FE149A578700311C40 /* libIrrlicht.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC785FD149A578700311C40 /* libIrrlicht.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E57BFBB149A5C3F004B9815 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = SOURCE_ROOT; };
+		5E57BFBD149A5DC1004B9815 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = SOURCE_ROOT; };
 		5E8FBC271490FB11003B79DB /* Ninja-Projekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja-Projekt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8FBC2B1490FB11003B79DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5E8FBC2E1490FB11003B79DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5E8FBC2F1490FB11003B79DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5E8FBC301490FB11003B79DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E8FBC331490FB11003B79DB /* Ninja-Projekt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ninja-Projekt-Info.plist"; sourceTree = "<group>"; };
-		5E8FBC371490FB11003B79DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E8FBC391490FB11003B79DB /* Ninja-Projekt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ninja-Projekt-Prefix.pch"; sourceTree = "<group>"; };
-		5E8FBC3B1490FB11003B79DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5E8FBC3D1490FB11003B79DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5E8FBC3E1490FB11003B79DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E8FBC411490FB11003B79DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5EBC146914910381005FE86F /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		5EC785F7149A567900311C40 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5EC785F8149A567900311C40 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5EC785F9149A567900311C40 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5EC785FD149A578700311C40 /* libIrrlicht.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIrrlicht.a; path = ../../LibIrrlicht/libIrrlicht.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +39,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC785FA149A567900311C40 /* Carbon.framework in Frameworks */,
+				5EC785FB149A567900311C40 /* IOKit.framework in Frameworks */,
+				5EC785FC149A567900311C40 /* OpenGL.framework in Frameworks */,
 				5E8FBC2C1490FB11003B79DB /* Cocoa.framework in Frameworks */,
+				5EC785FE149A578700311C40 /* libIrrlicht.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,10 @@
 		5E8FBC2A1490FB11003B79DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5EC785FD149A578700311C40 /* libIrrlicht.a */,
+				5EC785F7149A567900311C40 /* Carbon.framework */,
+				5EC785F8149A567900311C40 /* IOKit.framework */,
+				5EC785F9149A567900311C40 /* OpenGL.framework */,
 				5E8FBC2B1490FB11003B79DB /* Cocoa.framework */,
 				5E8FBC2D1490FB11003B79DB /* Other Frameworks */,
 			);
@@ -82,10 +93,8 @@
 		5E8FBC311490FB11003B79DB /* Ninja-Projekt */ = {
 			isa = PBXGroup;
 			children = (
-				5E8FBC3D1490FB11003B79DB /* AppDelegate.h */,
-				5E8FBC3E1490FB11003B79DB /* AppDelegate.m */,
-				5E8FBC401490FB11003B79DB /* MainMenu.xib */,
 				5E8FBC321490FB11003B79DB /* Supporting Files */,
+				5E57BFBB149A5C3F004B9815 /* main.cpp */,
 			);
 			path = "Ninja-Projekt";
 			sourceTree = "<group>";
@@ -93,11 +102,10 @@
 		5E8FBC321490FB11003B79DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E57BFBD149A5DC1004B9815 /* MainMenu.nib */,
 				5E8FBC331490FB11003B79DB /* Ninja-Projekt-Info.plist */,
 				5EBC146914910381005FE86F /* InfoPlist.strings */,
-				5E8FBC371490FB11003B79DB /* main.m */,
 				5E8FBC391490FB11003B79DB /* Ninja-Projekt-Prefix.pch */,
-				5E8FBC3A1490FB11003B79DB /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,9 +160,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E8FBC3C1490FB11003B79DB /* Credits.rtf in Resources */,
-				5E8FBC421490FB11003B79DB /* MainMenu.xib in Resources */,
 				5EBC146A14910381005FE86F /* InfoPlist.strings in Resources */,
+				5E57BFBE149A5DC1004B9815 /* MainMenu.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,31 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E8FBC381490FB11003B79DB /* main.m in Sources */,
-				5E8FBC3F1490FB11003B79DB /* AppDelegate.m in Sources */,
+				5E57BFBC149A5C3F004B9815 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5E8FBC3A1490FB11003B79DB /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E8FBC3B1490FB11003B79DB /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		5E8FBC401490FB11003B79DB /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E8FBC411490FB11003B79DB /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5E8FBC431490FB11003B79DB /* Debug */ = {
@@ -212,7 +199,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				HEADER_SEARCH_PATHS = ../../LibIrrlicht/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -232,7 +220,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				HEADER_SEARCH_PATHS = ../../LibIrrlicht/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -241,8 +230,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ninja-Projekt/Ninja-Projekt-Prefix.pch";
-				INFOPLIST_FILE = "Ninja-Projekt/Ninja-Projekt-Info.plist";
+				GCC_PREFIX_HEADER = "Ninja-Projekt-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Ninja-Projekt-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../LibIrrlicht\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -252,8 +247,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ninja-Projekt/Ninja-Projekt-Prefix.pch";
-				INFOPLIST_FILE = "Ninja-Projekt/Ninja-Projekt-Info.plist";
+				GCC_PREFIX_HEADER = "Ninja-Projekt-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Ninja-Projekt-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../LibIrrlicht\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
