@@ -1,8 +1,8 @@
 //
-//  main.cpp
+//  MaploaderClass.cpp
 //  Ninja-Projekt
 //
-//  Created by Manuel Burghard on 15.12.11.
+//  Created by Paul Engelniederhammer on 06.04.12.
 //  Copyright (c) 2011 ESP 2011/12/13. All rights reserved.
 //
 #include <irrlicht.h>
@@ -143,29 +143,23 @@ int MapLoader(int argc, char** argv)
 	int lastFPS = -1;
 
 	while(device->run())
-	if (device->isWindowActive())
+	driver->beginScene(true, true, video::SColor(0,200,200,200));
+	smgr->drawAll();
+	driver->endScene();
+
+	int fps = driver->getFPS();
+
+	if (lastFPS != fps)
 	{
-		driver->beginScene(true, true, video::SColor(0,200,200,200));
-		smgr->drawAll();
-		driver->endScene();
+		core::stringw str = L"Load Irrlicht File example - Irrlicht Engine [";
+		str += driver->getName();
+		str += "] FPS:";
+		str += fps;
 
-		int fps = driver->getFPS();
-
-		if (lastFPS != fps)
-		{
-			core::stringw str = L"Load Irrlicht File example - Irrlicht Engine [";
-			str += driver->getName();
-			str += "] FPS:";
-			str += fps;
-
-			device->setWindowCaption(str.c_str());
-			lastFPS = fps;
-		}
-
+		device->setWindowCaption(str.c_str());
+		lastFPS = fps;
 	}
 
-	device->drop();
-
-	return 0;
 }
+
 }
