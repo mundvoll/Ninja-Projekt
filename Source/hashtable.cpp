@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 #include "hashtable.h"
+
 struct frames
    {
 	  int start;
@@ -19,29 +20,23 @@ struct frames
 
 
 
-int main()
+int main() // main Method
 {
-	setFrames("A",1,300);
-	setFrames("B",400,666);
-	std::cout <<getStartframe("A") << getStopframe("A");
-	std::cout <<getStartframe("B") << getStopframe("B");
-	int i;
-		std::cin >>i; 
 	return 0;
 }
 
- frames setframesr(int setstart,int setstop)
+ frames setframesr(int setstart,int setstop) // required for setFrames
  {
 	  struct frames ssframes ={setstart,setstop};
 	  return ssframes;
  }
 
- void setFrames(std::string name,int start, int stop)
+ void setFrames(std::string name,int start, int stop) // saves frames; parameters: name of frame(for example "idle"), starting frame, stopping frame;
  {
 	   framelist.insert(std::pair<std::string,frames>(name,setframesr(start,stop)));
  }
 
-int getStartframe(std::string sf)
+int getStartframe(std::string sf) // searches starting frame after the name and returns it
  {
 	 hashtable::iterator it= framelist.find(sf);
 	 if(it!=framelist.end())
@@ -49,7 +44,7 @@ int getStartframe(std::string sf)
 	 return it->second.returnstart();
  }
 
-int getStopframe(std::string sf)
+int getStopframe(std::string sf) // searches stopping frame after the name and returns it
  {
 	 hashtable::iterator it= framelist.find(sf);
 	 if(it!=framelist.end())
