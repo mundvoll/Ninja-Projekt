@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		5E57BFBC149A5C3F004B9815 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E57BFBB149A5C3F004B9815 /* main.cpp */; };
 		5E57BFBE149A5DC1004B9815 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5E57BFBD149A5DC1004B9815 /* MainMenu.nib */; };
+		5E8B022D155168B4000FA8A2 /* ESPFrameTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E8B0228155168B4000FA8A2 /* ESPFrameTable.cpp */; };
+		5E8B022E155168B4000FA8A2 /* ESPModelImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E8B022A155168B4000FA8A2 /* ESPModelImporter.cpp */; };
+		5E8B022F155168B4000FA8A2 /* MaploaderClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E8B022C155168B4000FA8A2 /* MaploaderClass.cpp */; };
+		5E8B023415516914000FA8A2 /* ESPCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E8B023215516914000FA8A2 /* ESPCharacter.cpp */; };
 		5E8FBC2C1490FB11003B79DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBC2B1490FB11003B79DB /* Cocoa.framework */; };
 		5EBC146A14910381005FE86F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EBC146914910381005FE86F /* InfoPlist.strings */; };
 		5EC785FA149A567900311C40 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC785F7149A567900311C40 /* Carbon.framework */; };
@@ -20,6 +24,14 @@
 /* Begin PBXFileReference section */
 		5E57BFBB149A5C3F004B9815 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = SOURCE_ROOT; };
 		5E57BFBD149A5DC1004B9815 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = SOURCE_ROOT; };
+		5E8B0228155168B4000FA8A2 /* ESPFrameTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESPFrameTable.cpp; path = ../ESPFrameTable.cpp; sourceTree = "<group>"; };
+		5E8B0229155168B4000FA8A2 /* ESPFrameTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPFrameTable.h; path = ../ESPFrameTable.h; sourceTree = "<group>"; };
+		5E8B022A155168B4000FA8A2 /* ESPModelImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESPModelImporter.cpp; path = ../ESPModelImporter.cpp; sourceTree = "<group>"; };
+		5E8B022B155168B4000FA8A2 /* ESPModelImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPModelImporter.h; path = ../ESPModelImporter.h; sourceTree = "<group>"; };
+		5E8B022C155168B4000FA8A2 /* MaploaderClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaploaderClass.cpp; path = ../MaploaderClass.cpp; sourceTree = "<group>"; };
+		5E8B023115516914000FA8A2 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Definitions.h; path = ../Definitions.h; sourceTree = "<group>"; };
+		5E8B023215516914000FA8A2 /* ESPCharacter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESPCharacter.cpp; path = ../ESPCharacter.cpp; sourceTree = "<group>"; };
+		5E8B023315516914000FA8A2 /* ESPCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPCharacter.h; path = ../ESPCharacter.h; sourceTree = "<group>"; };
 		5E8FBC271490FB11003B79DB /* Ninja-Projekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja-Projekt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8FBC2B1490FB11003B79DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5E8FBC2E1490FB11003B79DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +105,14 @@
 		5E8FBC311490FB11003B79DB /* Ninja-Projekt */ = {
 			isa = PBXGroup;
 			children = (
+				5E8B023115516914000FA8A2 /* Definitions.h */,
+				5E8B023215516914000FA8A2 /* ESPCharacter.cpp */,
+				5E8B023315516914000FA8A2 /* ESPCharacter.h */,
+				5E8B0228155168B4000FA8A2 /* ESPFrameTable.cpp */,
+				5E8B0229155168B4000FA8A2 /* ESPFrameTable.h */,
+				5E8B022A155168B4000FA8A2 /* ESPModelImporter.cpp */,
+				5E8B022B155168B4000FA8A2 /* ESPModelImporter.h */,
+				5E8B022C155168B4000FA8A2 /* MaploaderClass.cpp */,
 				5E8FBC321490FB11003B79DB /* Supporting Files */,
 				5E57BFBB149A5C3F004B9815 /* main.cpp */,
 			);
@@ -173,6 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E57BFBC149A5C3F004B9815 /* main.cpp in Sources */,
+				5E8B022D155168B4000FA8A2 /* ESPFrameTable.cpp in Sources */,
+				5E8B022E155168B4000FA8A2 /* ESPModelImporter.cpp in Sources */,
+				5E8B022F155168B4000FA8A2 /* MaploaderClass.cpp in Sources */,
+				5E8B023415516914000FA8A2 /* ESPCharacter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
