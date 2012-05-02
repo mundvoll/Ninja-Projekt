@@ -1,0 +1,3 @@
+model = "";
+texture = "";
+animation:idle = "{ start : end }";
