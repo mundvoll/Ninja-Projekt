@@ -1,0 +1,9 @@
+model = "wildsau.x";
+texture = "";
+animation:idle1 = "{ 0: 20}";
+animation:idle2 = "{ 32: 72}";
+animation:idle3 = "{ 85: 115}";
+animation:idle4 = "{ 134: 162}";
+animation:full_idle = "{ 191: 221}";
+animation:attack = "{ 244: 289}";
+animation:move = "{ start : end }";
